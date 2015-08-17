@@ -1,4 +1,4 @@
-FROM ubuntu:12.04.5
+FROM ubuntu:12.04
 
 RUN apt-get update -y && \
  apt-get install -y git-core g++ libbz2-dev \
